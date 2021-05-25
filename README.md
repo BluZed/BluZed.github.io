@@ -1,2 +1,5 @@
 # BluZed-CSS-Krunker
-A Krunker CSS .
+
+**How to use?**
+
+[Click here](https://dsc.gg/bluzed) to get the **main_custom.css** file
