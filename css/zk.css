@@ -366,14 +366,39 @@
     cursor: pointer;
     pointer-events: auto;
     padding: 10px;
-    background-color: rgb(255 255 255 / 0%)
+    background-color: rgba(255, 255, 255, 0);
     max-height: 280px;
     max-width: 382px;
     overflow: hidden;
-    border-radius: 6px;
+    border: 5px solid rgb(255 255 255 / 42%);
+    border-radius: 50px!important;
 }
-#endCard {
-    background-color: rgb(255 255 255 / 0%)
+.endCard {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 6px;
+    height: min-content;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 100%;
+    min-width: 100%;
+    border: 5px solid rgb(255 255 255 / 42%);
+    border-radius: 50px!important;
+}
+#endTable {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border-radius: 6px;
+    overflow-y: auto;
+    height: min-content;
+    vertical-align: top;
+    max-height: 100%;
+    display: table;
+    border-spacing: 0;
     border: 5px solid rgb(255 255 255 / 42%);
     border-radius: 50px!important;
 }
