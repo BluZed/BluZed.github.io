@@ -375,7 +375,7 @@
 }
 .endCard {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0)!important;
     border-collapse: collapse;
     box-sizing: border-box;
     text-align: left;
