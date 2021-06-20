@@ -362,6 +362,12 @@
     overflow: hidden;
     display: inline-block!important;
 }
+#mainLogo {
+    margin-top: 50px;
+    margin-bottom: -40px;
+    height: 225px;
+    content: url(https://bluzed.github.io/media/logo.gif);
+}
 
 /* END */
 
