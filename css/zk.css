@@ -383,5 +383,9 @@
     cursor: pointer;
     display: none!important;
 }
+#classPreviewCanvas {
+    margin-bottom: -100px;
+    filter: invert(1);
+}
 /* END */
 
