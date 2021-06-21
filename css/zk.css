@@ -355,13 +355,6 @@
     height: 225px;
     content: url(https://bluzed.github.io/media/logo.gif);
 }
-.verticalSeparator {
-    background: rgba(255,255,255,.12);
-    width: 4px;
-    height: 55px;
-    margin: 0 10px;
-    display: none!important;
-}
 .imageButton {
     display: inline-block!important;
     width: 50px;
