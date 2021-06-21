@@ -298,20 +298,7 @@
     border-radius: 50px;
 }
 #newsHolder {
-    pointer-events: all;
-    width: 320px;
-    height: 230px;
-    padding: 10px;
-    z-index: 20;
-    position: absolute;
-    right: 14px;
-    top: 86px;
-    text-align: left;
-    font-size: 16px;
-    border-radius: 4px;
-    background-color: rgb(255 255 255 / 0%);
-    border: 5px solid rgb(255 255 255 / 42%);
-    border-radius: 50px;
+    display: none!important;
 }
 #mapInfoHolder {
     position: absolute;
