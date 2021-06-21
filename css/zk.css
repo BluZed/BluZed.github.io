@@ -385,7 +385,7 @@
 }
 #classPreviewCanvas {
     margin-bottom: -100px;
-    filter: invert(1);
+    filter: invert(1)!important;
 }
 /* END */
 
