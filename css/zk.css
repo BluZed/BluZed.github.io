@@ -383,5 +383,8 @@
 div#mLevelCont {
     left: 340px;
 }
+#instructionsUpdateCredit {
+    left: 150px!important;
+}
 /* END */
 
