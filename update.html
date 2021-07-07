@@ -1,140 +1,171 @@
-<html><head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>ZK-Client</title>
-      <style>
-         @keyframes FadeInOut {
-         0% {
-         opacity:1;
-         }
-         25% {
-         opacity:0.75;
-         }
-         50% {
-         opacity:0.50;
-         }
-         75% {
-         opacity:0.25;
-         }
-         100% {
-         opacity:0;
-         }
-         }
-         @font-face {
-         font-family: 'FFF Forward';
-         src: url('../fonts/font2.ttf');
-         }
-         * {
-         font-family: 'FFF Forward';
-         font-size: 12px;
-         user-select: none;
-	 text-shadow: 1px 0px 0 #ffffff00, 0px 0px 0 #ffffff00;
-	 color: #00e5ff;
-         }
-         #status {
-         position: absolute;
-         left: 6px;
-         bottom: 2px;
-         }
-      </style>
-   </head>
-   <body>
-      <style>
-         .geeks {
-         margin: auto;
-         align-content: center;
-         align-items: center;
-         border: 5px solid rgb(140 121 255);
-         top: 0;
-         right: 0;
-         bottom: 0;
-         left: 0;
-		 width: fit-content;
-         }
-         .geeks span {
-         font-size: 24px;
-         display: inline-block;
-         transition: all 0.5s;
-         animation: animate 2s infinite;
-         }
-         .geeks span:nth-child(1) {
-         animation-delay: 0.1s;
-         }
-         .geeks span:nth-child(2) {
-         animation-delay: 0.2s;
-         }
-         .geeks span:nth-child(3) {
-         animation-delay: 0.3s;
-         }
-         .geeks span:nth-child(4) {
-         animation-delay: 0.4s;
-         }
-         .geeks span:nth-child(5) {
-         animation-delay: 0.5s;
-         }
-         .geeks span:nth-child(6) {
-         animation-delay: 0.6s;
-         }
-         .geeks span:nth-child(7) {
-         animation-delay: 0.7s;
-         }
-         .geeks span:nth-child(8) {
-         animation-delay: 0.8s;
-         }
-         .geeks span:nth-child(9) {
-         animation-delay: 0.9s;
-         }
-         .geeks span:nth-child(10) {
-         animation-delay: 1s;
-         }
-         .geeks span:nth-child(11) {
-         animation-delay: 1.1s;
-         }
-         .geeks span:nth-child(12) {
-         animation-delay: 1.2s;
-         }
-         .geeks span:nth-child(13) {
-         animation-delay: 1.3s;
-         }
-         @keyframes animate {
-         0% {
-         color: #00d508;;
-         transform: translateY(0);
-         margin-left: 0;
-         }
-         25% {
-         color: #00e5ff;
-         transform: translateY(-15px);
-         margin-left: 10px;
-         }
-         100% {
-         color: #00f1ff;
-         transform: translateY(0);
-         margin-left: 0;
-         }
-         }    
-      </style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       
-      
-         <div class="geeks">
-            <span>U</span>
-            <span>P</span>
-            <span>D</span>
-            <span>A</span>
-            <span>T</span>
-            <span>I</span>
-            <span>N</span>
-            <span>G</span>
-            <span>.</span>
-            <span>.</span>
-            <span>.</span>
-            <span>.</span>
-            <span>.</span>
-<div id="msgs" style="color: brown;border-top: 5px solid rgb(140 121 255);top: auto;"> 
-Downloading the new setup...
-</div>
-</div>
-         
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ZK-Client</title>
+   <style>
+      @keyframes FadeInOut {
+      0% {
+      opacity:1;
+      }
+      25% {
+      opacity:0.75;
+      }
+      50% {
+      opacity:0.50;
+      }
+      75% {
+      opacity:0.25;
+      }
+      100% {
+      opacity:0;
+      }
+      }
+      @font-face {
+      font-family: 'FFF Forward';
+      src: url('../fonts/font2.ttf');
+      }
+      * {
+      font-family: 'FFF Forward';
+      font-size: 12px;
+      user-select: none;
+      text-shadow: 1px 0px 0 #ffffff00, 0px 0px 0 #ffffff00;
+      color: #00e5ff;
+      }
+      #status {
+      position: absolute;
+      left: 6px;
+      bottom: 2px;
+      }
+   </style>
+</head>
+<body>
+   <style>
+      .geeks {
+      margin: auto;
+      align-content: center;
+      align-items: center;
+      border: 5px solid rgba(0, 81, 255, 0.377);
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    width: fit-content;
+      }
+      .geeks span {
+      font-size: 24px;
+      display: inline-block;
+      transition: all 0.5s;
+      animation: animate 2s infinite;
+      backdrop-filter: blur(20px);
+      }
+      .geeks span:nth-child(1) {
+      animation-delay: 0.1s;
+      }
+      .geeks span:nth-child(2) {
+      animation-delay: 0.2s;
+      }
+      .geeks span:nth-child(3) {
+      animation-delay: 0.3s;
+      }
+      .geeks span:nth-child(4) {
+      animation-delay: 0.4s;
+      }
+      .geeks span:nth-child(5) {
+      animation-delay: 0.5s;
+      }
+      .geeks span:nth-child(6) {
+      animation-delay: 0.6s;
+      }
+      .geeks span:nth-child(7) {
+      animation-delay: 0.7s;
+      }
+      .geeks span:nth-child(8) {
+      animation-delay: 0.8s;
+      }
+      .geeks span:nth-child(9) {
+      animation-delay: 0.9s;
+      }
+      .geeks span:nth-child(10) {
+      animation-delay: 1s;
+      }
+      .geeks span:nth-child(11) {
+      animation-delay: 1.1s;
+      }
+      .geeks span:nth-child(12) {
+      animation-delay: 1.2s;
+      }
+      .geeks span:nth-child(13) {
+      animation-delay: 1.3s;
+      }
+      @keyframes animate {
+      0% {
+      color: #000ed5;;
+      transform: translateY(0);
+      margin-left: 0;
+      }
+      25% {
+      color: #00e5ff;
+      transform: translateY(-15px);
+      margin-left: 10px;
+      }
+      100% {
+      color: #00f1ff;
+      transform: translateY(0);
+      margin-left: 0;
+      }
+      }    
+   </style>
    
+   
+      <div class="geeks">
+         <span>U</span>
+         <span>P</span>
+         <span>D</span>
+         <span>A</span>
+         <span>T</span>
+         <span>I</span>
+         <span>N</span>
+         <span>G</span>
+         <span>.</span>
+         <span>.</span>
+         <span>.</span>
+         <span>.</span>
+         <span>.</span>
+<div id="msgs" style="color: rgb(65 0 255);border-top: 5px solid rgba(0, 81, 255, 0.377);top: auto;"> 
+Meanwhile, Watch Krunker on-
+</div>
+<div id="twitch" style="color:#5900ffa6;border: 5px solid rgba(0, 81, 255, 0.377);">TWITCH</div>
+<div id="Youtube" style="color:#fc0000ce;border: 5px solid rgba(0, 81, 255, 0.377);">YOUTUBE</div>
+</div>
+      
+<style>
+#twitch {
+ margin: 0 auto;
+ position: relative;
+ width: 25%;
+ height: auto;
+ align-items: center;
+ text-align: center;
+}
+#Youtube {
+ margin: 0 auto;
+ font-size: smaller;
+ position: relative;
+ width: 25%;
+ height: auto;
+ align-items: center;
+ text-align: center;
+}
+#msgs {
+    color: rgb(65 0 255);
+    border: 5px solid rgba(0, 81, 255, 0.377);
+    top: auto;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+</style>  
 
 </body></html>
