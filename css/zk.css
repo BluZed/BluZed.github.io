@@ -378,7 +378,6 @@
 }
 #classPreviewCanvas {
     margin-bottom: -100px;
-    filter: invert(1)!important;
 }
 div#mLevelCont {
     left: 340px;
