@@ -1,4 +1,4 @@
-# ZK Client (Zed's Krunker Client)!
+# ZK Client!
 
 This is a simple Krunker Client by **BluZed** & **MangoBunchBoyRazor** !
 
