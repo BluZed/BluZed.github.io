@@ -79,9 +79,9 @@ const settings_check = () => {
     }
 }
 window.addEventListener('resize', ()=>{
-    let canvas = document.querySelector('.vanta-canvas')
-    canvas.width  = window.innerWidth/2
-    canvas.height = window.innerHeight/2
+    if(VANTA.current != undefined){
+        VANTA.current.resize()
+    }
 })
 if(user_has_mouse()){
     default_settings = {

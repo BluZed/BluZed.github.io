@@ -26,7 +26,8 @@ html {
 }
 
 body {
-	margin: 0px!important
+	margin: 0px!important;
+	position: fixed!important;
 }
 
 body,
