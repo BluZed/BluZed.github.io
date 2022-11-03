@@ -1,0 +1,105 @@
+*{
+    color: white;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+/* Particles JS */
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+/*                */
+
+.header {
+    width: 100%;
+    height: 5rem;
+    background: #00000000;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    font-family: fantasy;
+    font-size: 4rem;
+    border-bottom: 1px solid #ffffff63;
+    border-radius: 0 0 1rem 1rem;
+    z-index: 9999;
+    margin-top: 0px!important;
+    top: 0;
+}
+
+.logotext {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    background: url(https://cdn.discordapp.com/avatars/747484654524694608/bca47e4839fea74baa8997a8a792f442.webp) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-size: 100% 100%;
+   user-select: none;
+}
+
+#info {
+    width: 100%;
+    height: 90%;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+}
+
+.stackedit__html {
+    transform: translateY(2rem);
+}
+
+.webstats {
+    font-size: 0.8rem;
+    display: flex;
+    width: min-content;
+    float: right;
+    margin-right: 0.8rem;
+    border-left: 0.5px solid #ffffff63;
+    height: inherit;
+    padding-left: 0.8rem;
+}
+.view-counter {
+    margin-top: 0.5rem;
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: rgb(20 20 20 / 99%);
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    border-radius: 10px;
+}
