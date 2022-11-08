@@ -1,1 +1,1 @@
-#[BluZed.github.io](https://bluzed.github.io)
+*[BluZed.github.io](https://bluzed.github.io)*
