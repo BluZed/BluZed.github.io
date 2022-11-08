@@ -30,7 +30,8 @@ canvas {
     background: #00000000;
     backdrop-filter: blur(3px);
     position: fixed;
-    font-family: fantasy;
+    font-family: 'Lato';
+    font-weight: bold;
     font-size: 4rem;
     border-bottom: 1px solid #ffffff63;
     border-radius: 0 0 1rem 1rem;
