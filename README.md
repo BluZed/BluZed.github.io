@@ -1,2 +1,1 @@
-# BluZed.github.io
-Github pages for BluZed :D
+[# BluZed.github.io](https://bluzed.github.io)*
