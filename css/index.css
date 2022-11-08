@@ -1,3 +1,6 @@
+:root {
+    --loaderColor: #e29cff;
+}
 *{
     color: white;
 }
@@ -21,23 +24,6 @@ canvas {
     background-size: 20%;
     background-position: 50% 50%;
     z-index: -1;
-}
-/*                */
-
-.header {
-    width: 100%;
-    height: 5rem;
-    background: #00000000;
-    backdrop-filter: blur(3px);
-    position: fixed;
-    font-family: 'Lato';
-    font-weight: bold;
-    font-size: 4rem;
-    border-bottom: 1px solid #ffffff63;
-    border-radius: 0 0 1rem 1rem;
-    z-index: 9999;
-    margin-top: 0px!important;
-    top: 0;
 }
 
 .logotext {
@@ -65,6 +51,8 @@ canvas {
 
 .stackedit__html {
     transform: translateY(2rem);
+    background: #ffffff0a;
+    border-radius: 1rem;
 }
 
 .webstats {
@@ -81,6 +69,69 @@ canvas {
     margin-top: 0.5rem;
     opacity: 0.8;
 }
+
+/* Page Load */
+#loader {
+    z-index: 9999999999;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgb(26, 26, 26);
+    overflow: hidden;
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 2rem 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: hidden;
+}
+.loader-dots {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--loaderColor);
+  color: var(--loaderColor);
+  box-shadow: 9984px 0 0 0 var(--loaderColor), 9999px 0 0 0 var(--loaderColor), 10014px 0 0 0 var(--loaderColor);
+  animation: dotCarousel 1.5s infinite linear;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    background: #00000000;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 4rem;
+    border-bottom: 1px solid #ffffff63;
+    border-radius: 0 0 1rem 1rem;
+    z-index: 9999;
+    margin-top: 0px!important;
+    top: 0;
+}
+
+@keyframes dotCarousel {
+  0% {
+    box-shadow: 9984px 0 0 -1px var(--loaderColor), 9999px 0 0 1px var(--loaderColor), 10014px 0 0 -1px var(--loaderColor);
+  }
+  50% {
+    box-shadow: 10014px 0 0 -1px var(--loaderColor), 9984px 0 0 -1px var(--loaderColor), 9999px 0 0 1px var(--loaderColor);
+  }
+  100% {
+    box-shadow: 9999px 0 0 1px var(--loaderColor), 10014px 0 0 -1px var(--loaderColor), 9984px 0 0 -1px var(--loaderColor);
+  }
+}
+
 
 ::-webkit-scrollbar-track
 {
