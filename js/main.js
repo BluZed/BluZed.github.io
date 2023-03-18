@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		const links = Object.values(linksData.socials)
 
 		for (const title of titles) {
-			generateSocialItemHTML(title, links[titles.indexOf(title)])
+			generateSocialItemHTML(title, linksData.socials[title])
 		}
 	}
 	generateSocialList()
