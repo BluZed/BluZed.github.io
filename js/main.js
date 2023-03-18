@@ -17,8 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		document.getElementById('socials').insertAdjacentHTML('afterend', `<p><strong>${title}</strong> - <a href="${url}">${url}</a>`)
 	}
 	const generateSocialList = () => {
-		const titles = Object.keys(linksData.socials)
-		const links = Object.values(linksData.socials)
+		const titles = Object.keys(linksData.socials)
 
 		for (const title of titles) {
 			generateSocialItemHTML(title, linksData.socials[title])
