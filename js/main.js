@@ -4,7 +4,7 @@ const linksData = {
 		Github: 'https://github.com/bluzed',
 		YouTube: 'https://youtube.com/bluzed',
 		//'Discord Server': '',  //--Coming soon--
-		'Discord (BluZed#0001)': 'https://discord.com/users/747484654524694608'
+		'Discord (BluZed#9431)': 'https://discord.com/users/747484654524694608'
 	}
 }
 
