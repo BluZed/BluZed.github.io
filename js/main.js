@@ -1,10 +1,9 @@
 const linksData = {
 	socials: {
-		npmjs: 'https://www.npmjs.com/~bluzed',
 		Github: 'https://github.com/bluzed',
 		YouTube: 'https://youtube.com/bluzed',
 		//'Discord Server': '',  //--Coming soon--
-		'Discord (BluZed#9431)': 'https://discord.com/users/747484654524694608'
+		'Discord (bluzed)': 'https://discord.com/users/747484654524694608'
 	}
 }
 
@@ -17,7 +16,8 @@ window.addEventListener('DOMContentLoaded', () => {
 		document.getElementById('socials').insertAdjacentHTML('afterend', `<p><strong>${title}</strong> - <a href="${url}">${url}</a>`)
 	}
 	const generateSocialList = () => {
-		const titles = Object.keys(linksData.socials)
+		const titles = Object.keys(linksData.socials)
+
 
 		for (const title of titles) {
 			generateSocialItemHTML(title, linksData.socials[title])
